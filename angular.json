@@ -28,7 +28,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.sass"
+              "src/styles.scss"
             ],
             "scripts": []
           },
@@ -92,7 +92,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.sass"
+              "src/styles.scss"
             ],
             "scripts": []
           }
@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-test"
+    }
+  },
+  "defaultProject": "angular-test",
+  "cli": {
+    "analytics": "e732eb35-dcd9-4e1c-8cc9-22128c173fb0"
+  }
 }

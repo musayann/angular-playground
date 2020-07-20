@@ -1,0 +1,4 @@
+<div>
+    <h1>Hello {{ selection.value }}</h1>
+    <input type="text" class="form-input" (keyup)="onKey($event)"  (keyup.enter)="showBanner()"  #selection/>
+</div>
